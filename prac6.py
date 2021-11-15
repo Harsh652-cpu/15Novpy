@@ -1,0 +1,10 @@
+num1=float(input("Enter the first number:"))
+num2=float(input("Enter the second number:"))
+add_res=num1+num2
+sub_res=num1-num2
+mul_res=num1*num2
+div_res=num1/num2
+print(str(num1)+"+"+str(num2)+"="+"%.2f"%add_res)
+print(str(num1)+"-"+str(num2)+"="+"%.2f"%sub_res)
+print(str(num1)+"*"+str(num2)+"="+"%.2f"%mul_res)
+print(str(num1)+"/"+str(num2)+"="+"%.2f"%div_res)
